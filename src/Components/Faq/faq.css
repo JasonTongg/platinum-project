@@ -1,0 +1,53 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 13px;
+    margin: 0px 16px;
+}
+
+.faq-kiri h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.faq-kiri p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 143%px;
+    text-align: center;
+}
+
+.faq-kanan {
+    width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+
+.faq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 13px;
+    margin: 0px 136px;
+}
+
+.faq-kanan {
+    width: 50%;
+}
+
+.faq-kiri {
+    align-self: flex-start;
+}
+
+}
