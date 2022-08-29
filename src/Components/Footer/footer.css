@@ -1,0 +1,52 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 16px;
+}
+
+.addres p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 143%;
+    margin-bottom: 16px;
+}
+
+.sosmed {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 143%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav ul li {
+    margin-bottom: 16px;
+    
+}
+
+.sosmed p {
+    margin-bottom: 16px;
+}
+
+.sosmed img {
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 992px) {
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 86px;
+        margin: 100px 136px 100px;
+    }
+}    
