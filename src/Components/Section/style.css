@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.our{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    padding-top: 100px;
+}
+
+
+
+.girls{
+    position: relative;
+    margin-left: 150px;
+    max-width: 600px;
+    height: auto;
+}
+/* 
+.dot-1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: #92D094;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dot-2{
+    margin-left: 500px;
+    margin-top: 90px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #e71d1d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-3{
+    margin-left: 30px;
+    margin-top: 500px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: #F9CC00;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+h2{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+.sewa{
+    margin-left: 150px;
+    margin-right: 160px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 130px;
+    width: 523px;
+}
+
+.checkList{
+    /* display: flex;
+    justify-content: space-around; */
+    width: 15px;
+}
+
+.point {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-bottom: 10px;
+}
+
