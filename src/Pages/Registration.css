@@ -1,0 +1,44 @@
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+h3, button {
+    margin: 32px 0;
+}
+
+.login-landing {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #0D28A6;
+    padding: 100px 0 0 115px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-landing img {
+    max-width: 100%;
+}
+
+.button-registration {
+    background: #0D28A6;
+    color: white;
+    align-items: center;
+    padding: 8px 12px;
+    width: 370px;
+    height: 36px
+}
