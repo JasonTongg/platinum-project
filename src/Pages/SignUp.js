@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 import LandingPage from "../Assets/landingpage.png";
 import TextField from "@mui/material/TextField";
@@ -19,7 +20,7 @@ const SignUp = () => {
                     <TextField id="password" label="6+ karakter" variant="outlined" style={{width: 370}} />
                     <br/>
                     <button className="button-registration">Sign In</button>
-                    <p style={{textAlign: "center"}}>Already have an account? <a href="#">Sign In here</a></p>
+                    <p style={{textAlign: "center"}}>Already have an account? <Link to="/signin">Sign In here</Link></p>
                 </div>
             </div>
             <div className="login-landing">

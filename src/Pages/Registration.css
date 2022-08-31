@@ -42,3 +42,20 @@ h3, button {
     width: 370px;
     height: 36px
 }
+
+@media only screen and (max-width: 850px) {
+    .login-form {
+        width: 100%;
+        padding: 50px 20px 0 20px;
+    }
+
+    .login-landing {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .login-form {
+        padding: 150px 75px 0 75px;
+    }
+}

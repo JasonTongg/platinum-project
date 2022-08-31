@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 import LandingPage from "../Assets/landingpage.png";
 import TextField from "@mui/material/TextField";
@@ -18,7 +19,7 @@ const SignIn = () => {
                     <br/>
                     <button className="button-registration">Sign In</button>
                 </div>
-                <p style={{textAlign: "center"}}>Don’t have an account? <a href="#">Sign Up for free</a></p>
+                <p style={{textAlign: "center"}}>Don’t have an account? <Link to="/signup">Sign Up for free</Link></p>
             </div>
             <div className="login-landing">
                 <h1>Binar Car Rental</h1>
