@@ -2,6 +2,7 @@ import Banner from "./Components/Banner";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SearchCars from "./Pages/SearchCars";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Banner />
       <Faq />
       <Footer />
+      <SearchCars />
     </div>
   );
 }
