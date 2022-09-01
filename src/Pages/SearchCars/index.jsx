@@ -10,7 +10,8 @@ import Footer from '../../Components/Footer';
 const SearchCars = () => {
   return (
     <div>
-      <h1>Header</h1>
+      <h1>HEADER</h1>
+      <h1>HERO</h1>
       <div className='kotakTengah'>
       <div className='bungkus-form-search'>
         <Form className='form-search'>
@@ -57,6 +58,7 @@ const SearchCars = () => {
               </FloatingLabel>
             </Col>
             <Col md={1}>
+
               <Button className='btn-search' variant="success">Cari Mobil</Button>
             </Col>
           </Row>
