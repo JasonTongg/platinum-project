@@ -1,0 +1,36 @@
+.nav {
+    background:#F1F3FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px 0 100px;
+    
+    
+}
+.title{
+    display:flex;
+    column-gap: 25px;
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-link {
+    display: flex;
+    column-gap: 20px;
+    
+}
+.nav-links:hover {
+    background-color:rgba(194, 204, 207, 0.801);
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+
+}
+
+.container-logo img{
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 95px;
+    top: 16px; 
+    
+}

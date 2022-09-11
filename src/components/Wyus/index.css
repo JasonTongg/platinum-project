@@ -1,0 +1,64 @@
+.All{
+    display: flex;
+    justify-content: space-between;
+    padding:  15px 150px 100px 150px;
+    
+}
+.judul {
+    justify-content: space-between;
+    padding:  0 0 0 150px;
+    
+}
+.whyus {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 100px 100px;
+    row-gap: 15px;
+}
+
+.whyus-square {
+    display: flex;
+    column-gap: 30px;
+}
+
+.square {
+    border: solid #D0D0D0 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+}
+
+.square-1 {
+    color: #fff;
+    background: #F9CC00;
+    border: solid 0px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.square-2 {
+    color: #fff;
+    background: #FA2C5A;
+    border: solid 0px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.square-3 {
+    color: #fff;
+    background: #0D28A6;
+    border: solid 0px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.square-4 {
+    color: #fff;
+    background: #5CB85F;
+    border: solid 0px;
+    padding: 5px;
+    border-radius: 50%;
+}

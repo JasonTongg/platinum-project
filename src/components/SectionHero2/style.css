@@ -1,0 +1,18 @@
+.hero2 {
+    
+    display: flex;
+    justify-content: space-between;
+    padding:  90px 150px 50px 150px;
+    
+}
+.hero-gambar2 img{
+    
+    width: 374px;
+    height: 366px;
+    left: 300px;
+
+}
+
+.nav-tulisan {
+    padding-left: 100px;
+}

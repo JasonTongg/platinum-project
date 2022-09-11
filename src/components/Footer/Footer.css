@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 200px 100px 100px;
+    column-gap: 70px;
+}
+
+.footer-alamat {
+    width: 25%;
+}
+
+.footer-alamat p {
+    padding: 0 0 15px 0;
+}
+
+.footer-nav {
+    width: 25%;
+}
+
+.footer-nav li{
+    list-style-type: none;
+    padding: 0 0 15px 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-socmed {
+    width: 25%;
+}
+
+.footer-socmed p {
+    margin-bottom: 16px;
+}
+
+.socmed {
+    color: #fff;
+    background: #0D28A6;
+    border: solid 0px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.copy {
+    width: 25%;
+}
+
+.copy p {
+    margin-bottom: 16px;
+}
