@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Logo from "../Assets/logo.png";
 import LandingPage from "../Assets/landingpage.png";
 import TextField from "@mui/material/TextField";
-import "./Registration.css";
+import "./Pages.css";
 
 const SignIn = () => {
     const api = "https://bootcamp-rent-car.herokuapp.com/customer/auth/login";
