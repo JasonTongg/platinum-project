@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+import {AiOutlineTag, AiFillLike, AiOutlineFieldTime} from 'react-icons/ai'
+import { FaMedal } from 'react-icons/fa'
 
 
 function Whyus(){
@@ -13,22 +15,22 @@ function Whyus(){
             <div className="All">
                 <div class="whyus-square">
                     <div class="square">
-                        <i class="square-1 fa-solid fa-thumbs-up"></i>
+                        <AiFillLike></AiFillLike>
                         <h4>Mobil Lengkap</h4>
                         <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
                     </div>
                     <div class="square">
-                        <i class="square-2 fa-solid fa-tag"></i>
+                        <AiOutlineTag></AiOutlineTag>
                         <h4>Harga Murah</h4>
                         <p>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
                     </div>
                     <div class="square">
-                        <i class="square-3 fa-solid fa-clock"></i>
+                        <AiOutlineFieldTime></AiOutlineFieldTime>
                         <h4>Layanan 24 Jam</h4>
                         <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
                     </div>
                     <div class="square">
-                        <i class="square-4 fa-solid fa-medal"></i>
+                        <FaMedal></FaMedal>
                         <h4>Sopir Profesional</h4>
                         <p>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
                     </div>

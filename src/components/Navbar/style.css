@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 150px 0 100px;
+    padding: 25px 150px 0px 100px;
     
     
 }
@@ -14,9 +14,13 @@
     color: black;
     
 }
+.title a{
+    text-decoration: none;
+}
 .nav-link {
     display: flex;
     column-gap: 20px;
+    
     
 }
 .nav-links:hover {

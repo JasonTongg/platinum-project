@@ -1,0 +1,30 @@
+/*.bg {
+    background:#F1F3FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px 200px 100px;
+}*/
+.part {
+    align-items: center;
+    margin: 100px;
+    border: solid hsl(0, 15%, 66%) 3px;
+    border-radius: 8px;
+    display:flex;
+    padding: 25px 50px 50px 50px;
+    justify-content: space-between;
+   
+    
+}
+.a1 p {
+    margin: 0px;
+}
+.a2 p {
+    margin: 0px;
+}
+.a3 p {
+    margin: 0px;
+}
+.a4 p {
+    margin: 0px;
+}
