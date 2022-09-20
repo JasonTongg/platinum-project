@@ -1,0 +1,141 @@
+.page-5{
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .hero{
+        width: 100vw;
+        height: 266px;
+        background-color: #F1F3FF;
+        display: flex;
+        position: relative;
+
+    }
+    .tabel{
+        width: 1047px;
+        height: 142px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 195px;
+        margin-left: 196px;
+        margin-right: 197px;
+        box-shadow: -0px -0px 2px #959595;
+    }
+
+    .satu{
+        font-size: 20px;
+        // margin-left: px;
+        // margin-top: px;
+        margin-bottom: 20px;
+    }
+
+    .dua{
+        padding-left: -10px;
+        font-size: 20px;
+        // margin-left: 24px;
+        // margin-top: 22px;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 15px;
+    }
+
+    .desc{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 199px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        border-color: #c8c9d3;
+        width: 605px;
+        height: auto;
+        box-shadow: -0px -0px 2px #959595;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .seleksi{
+        color: #959595;
+        width: 200px;
+        height: 30px;
+        border-radius: 3px;
+    }
+
+    .detmo{
+        width: 410px;
+        height: 500px;
+
+        // border-color: #959595;
+        margin-left: 30px;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: -0px -0px 2px #959595;
+    }
+
+    .pen{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .contain{
+        display: flex;
+        flex-direction: row;
+    }
+
+    input{
+        width: 200px;
+        height: 30px;
+        border: solid 0.2px black;
+        border-radius: 4px;
+    }
+
+    img{
+        padding-left: 56px;
+        padding-top: 28px;
+    }
+
+    .nama-mobil{
+        padding-top: 10px;
+        padding-left:20px;
+    }
+
+    .FiUsers{
+        padding-left: 20px;
+        width: auto;
+    }
+
+    aa{
+        padding-left: 10px;
+    }
+
+    .tanggal{
+        margin-top: 10px;
+        margin-left: 32px;
+        height: 40px;
+        width: 338px;
+        padding-left: 10px;
+    }
+    li{
+        color: #c8c9d3;
+        font-size: 15px;
+        // padding-top
+    }
+}

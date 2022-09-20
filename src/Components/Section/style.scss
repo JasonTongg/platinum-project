@@ -1,0 +1,116 @@
+.page-2 {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+
+    
+    .our {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+        width: 100vw;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .girl {
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .girls {
+        position: relative;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .parf {
+        margin-top: 50px;
+    }
+
+    .best {
+        padding: 10px 100px 30px 60px ;
+    }
+
+    .sewa {
+        padding-top: 40px;
+        size: 14px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 60px;
+        width: 523px;
+    }
+
+    .checkList {
+        /* display: flex;
+    justify-content: space-around; */
+        width: 4%;
+        height: 4%;
+    }
+
+    .point {
+        /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* 
+.dot-1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: #92D094;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dot-2{
+    margin-left: 500px;
+    margin-top: 90px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #e71d1d;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-3{
+    margin-left: 30px;
+    margin-top: 500px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: #F9CC00;
+    border-radius: 50%;
+    display: inline-block;
+} */
+/* 
+h2{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
+} */

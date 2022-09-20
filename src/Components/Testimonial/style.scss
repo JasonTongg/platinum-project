@@ -1,0 +1,49 @@
+.page-4{
+    overflow: hidden;
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    h2{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .parf{
+        text-align: left;
+    }
+
+    .containers{
+        display: flex;
+        // overflow: auto;
+        width: 100vw;
+        transition: all 0.5s linear;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        // transform: translateX(619px);
+    }
+    .card{
+        margin-left: 100px;
+        background-color: #F1F3FF;
+        border-color: none;
+    }
+    Button{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 100%;
+        background-color: greenyellow;
+        border-color: greenyellow;
+    }
+    .cen{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    img{
+        margin-right: 20px;
+    }
+}
