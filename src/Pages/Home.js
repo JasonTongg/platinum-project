@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import SectionHero from "../Components/SectionHero";
 import Navbar from "../Components/Navbar";
 
 const Home = () => {
-    return (
-        <>
-            <Navbar />
-            <SectionHero />
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <SectionHero button />
+    </>
+  );
+};
 
 export default Home;

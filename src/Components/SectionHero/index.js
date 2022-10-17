@@ -15,7 +15,7 @@ function SectionHero(props) {
             terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
             untuk sewa mobil selama 24 jam.
           </p>
-          <Link to="/carimobil">
+          <Link to="/search">
             <Button text="Mulai Sewa Mobil"></Button>
           </Link>
         </div>
